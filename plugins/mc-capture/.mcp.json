@@ -3,6 +3,18 @@
     "mc-opportunities": {
       "type": "http",
       "url": "https://api.mergecombinator.com/mcp"
+    },
+    "usaspending": {
+      "type": "http",
+      "url": "https://usaspending.1102tools.com/mcp"
+    },
+    "ecfr": {
+      "type": "http",
+      "url": "https://ecfr.1102tools.com/mcp"
+    },
+    "federal-register": {
+      "type": "http",
+      "url": "https://federal-register.1102tools.com/mcp"
     }
   }
 }

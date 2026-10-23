@@ -19,6 +19,8 @@ The plugin connects the `mc-opportunities` MCP server (`https://api.mergecombina
 | `washington_briefing` | Today's policy briefing. |
 | `events_outlook` | Industry days and events this month. |
 
+Two more servers from the plugin help here. `federal-register`: `open_comment_periods` and `search_documents` for proposed DFARS, FAR or SBA SBIR rules that change eligibility or terms, such as CMMC or SBIR policy directive updates. `usaspending`: who won the last round. For that, hand off to the `market-research` skill.
+
 If the tools are not available (the connector is off, or the client does not load plugin MCP servers), fetch the same data from `https://api.mergecombinator.com/api/opportunities?keyword=<term>&status=active` and say that you used the public API.
 
 ## Workflow

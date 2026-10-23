@@ -1,7 +1,7 @@
 # Terms of Service
 
 **MC Capture**
-Effective date: October 23, 2026
+Effective date: October 23, 2026 (section 7 revised to name the 1102tools servers)
 
 These terms govern your use of the MC Capture plugin (the "Plugin") and the Merge Combinator opportunities service it connects to at https://api.mergecombinator.com (the "Service"). In these terms, "you" means the person using the Plugin or the Service, and "Merge Combinator" means the publisher of the Plugin and operator of the Service. By using the Plugin or the Service, you agree to these terms.
 
@@ -38,7 +38,7 @@ Documents and information you share with Claude while using the Plugin remain yo
 
 ## 7. Third-party sources and services
 
-Listings link to websites that Merge Combinator does not operate. Those websites are governed by their own terms. The Plugin runs inside Claude, which is governed by Anthropic's terms and not by these terms.
+Listings link to websites that Merge Combinator does not operate. Those websites are governed by their own terms. The Plugin also connects to the USAspending, eCFR and Federal Register servers operated by 1102tools, which Merge Combinator does not operate and which are not part of the Service. Merge Combinator does not guarantee their availability or the accuracy of their data, and they are governed by their own terms. The Plugin runs inside Claude, which is governed by Anthropic's terms and not by these terms.
 
 ## 8. Availability
 

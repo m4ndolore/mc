@@ -1,8 +1,8 @@
 {
   "name": "mc-capture",
   "displayName": "MC Capture",
-  "version": "0.1.1",
-  "description": "Defense capture for founders and small businesses. Search open SBIR/STTR, DARPA, DIU, GoColosseum, Ratio Exchange and SAM.gov opportunities, set weekly email alerts, steel-man and red-team a bid/no-bid decision, and draft in your own voice.",
+  "version": "0.2.0",
+  "description": "Defense capture for founders and small businesses. Search open SBIR/STTR, DARPA, DIU, GoColosseum, Ratio Exchange and SAM.gov opportunities, set weekly email alerts, research incumbents and competitors from USAspending, check FAR and DFARS clauses, steel-man and red-team a bid/no-bid decision, and draft in your own voice.",
   "author": {
     "name": "Merge Combinator",
     "url": "https://mergecombinator.com"
@@ -25,6 +25,10 @@
     "diu",
     "capture",
     "proposals",
-    "bid-no-bid"
+    "bid-no-bid",
+    "usaspending",
+    "far",
+    "dfars",
+    "market-research"
   ]
 }
