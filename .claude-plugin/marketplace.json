@@ -10,7 +10,7 @@
     {
       "name": "mc-capture",
       "source": "./plugins/mc-capture",
-      "description": "Find defense funding opportunities, get weekly alerts, and steel-man and red-team a bid before you write it."
+      "description": "Find defense funding opportunities, get weekly alerts, research incumbents and competitors, and steel-man and red-team a bid before you write it."
     }
   ]
 }

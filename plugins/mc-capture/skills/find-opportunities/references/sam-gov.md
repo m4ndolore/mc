@@ -27,6 +27,6 @@ When the Attachments/Links section is empty, the attachments are usually control
 
 ## Other places to look
 
-- GovTribe and HigherGov: history, incumbents and award data.
-- FPDS (fpds.gov): awarded contracts only, useful for who won the last one.
+- The `usaspending` tools: who won the predecessor contract. Use `lookup_piid` if the notice names one, or the `market-research` skill.
+- GovTribe and HigherGov: forecasts, history and contacts, if the user has an account.
 - A web search for the exact notice number plus title words.
