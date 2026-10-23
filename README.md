@@ -10,7 +10,7 @@ Claude plugins from [Merge Combinator](https://mergecombinator.com), a venture s
 
 | Plugin | What it does | Status |
 |---|---|---|
-| [MC Capture](plugins/mc-capture/README.md) (`mc-capture`) | Find defense funding opportunities, get weekly alerts, and steel-man and red-team a bid | 0.1.0 |
+| [MC Capture](plugins/mc-capture/README.md) (`mc-capture`) | Find defense funding opportunities, get weekly alerts, and steel-man and red-team a bid | 0.1.1 |
 
 Install one with `/plugin install <plugin>@mc`.
 
@@ -30,6 +30,7 @@ plugins/
       references/        detail the skill loads when it needs it
     README.md
     PRIVACY.md
+    TERMS.md
 tests/                   structure checks for every plugin
 ```
 
@@ -37,7 +38,7 @@ tests/                   structure checks for every plugin
 
 1. Create `plugins/<name>/` with the layout above. Use the `mc-` prefix: plugin names are shared across the Claude plugin directory.
 2. Add it to `.claude-plugin/marketplace.json` and to the table above.
-3. Give it its own `PRIVACY.md` that says exactly what it sends and stores.
+3. Give it its own `PRIVACY.md` that says exactly what it sends and stores, and a `TERMS.md`. Set `privacyPolicyUrl`, `termsOfServiceUrl` and `documentationUrl` in `plugin.json`.
 4. Run the checks below.
 
 ## Development

@@ -40,13 +40,14 @@ class PluginTest(unittest.TestCase):
             manifest = json.loads((path / ".claude-plugin" / "plugin.json").read_text())
             self.assertEqual(manifest["name"], name)
             self.assertRegex(manifest["version"], r"^\d+\.\d+\.\d+$")
-            for key in ("privacyPolicyUrl", "supportUrl", "homepage", "repository"):
+            for key in ("privacyPolicyUrl", "termsOfServiceUrl", "documentationUrl", "supportUrl", "homepage", "repository"):
                 self.assertTrue(manifest[key].startswith("https://"), key)
             self.assertTrue((path / manifest["icon"]).is_file(), manifest["icon"])
 
-    def test_privacy_policy_exists(self):
+    def test_policies_exist(self):
         for _, path in plugin_dirs():
             self.assertTrue((path / "PRIVACY.md").is_file())
+            self.assertTrue((path / "TERMS.md").is_file())
 
     def test_mcp_servers_use_https(self):
         for _, path in plugin_dirs():
