@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mc-opportunities": {
+      "type": "http",
+      "url": "https://api.mergecombinator.com/mcp"
+    }
+  }
+}

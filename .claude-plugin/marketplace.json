@@ -1,0 +1,16 @@
+{
+  "name": "mc",
+  "owner": {
+    "name": "Merge Combinator"
+  },
+  "metadata": {
+    "description": "Claude plugins from Merge Combinator, a venture studio for national security."
+  },
+  "plugins": [
+    {
+      "name": "mc-capture",
+      "source": "./plugins/mc-capture",
+      "description": "Find defense funding opportunities, get weekly alerts, and steel-man and red-team a bid before you write it."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mc-capture",
+  "displayName": "MC Capture",
+  "version": "0.1.0",
+  "description": "Defense capture for founders and small businesses. Search open SBIR/STTR, DARPA, DIU, GoColosseum, Ratio Exchange and SAM.gov opportunities, set weekly email alerts, steel-man and red-team a bid/no-bid decision, and draft in your own voice.",
+  "author": {
+    "name": "Merge Combinator",
+    "url": "https://mergecombinator.com"
+  },
+  "homepage": "https://github.com/m4ndolore/mc/tree/main/plugins/mc-capture",
+  "repository": "https://github.com/m4ndolore/mc",
+  "privacyPolicyUrl": "https://github.com/m4ndolore/mc/blob/main/plugins/mc-capture/PRIVACY.md",
+  "supportUrl": "https://github.com/m4ndolore/mc/issues",
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.svg",
+  "keywords": ["defense", "govcon", "sbir", "sttr", "sam-gov", "darpa", "diu", "capture", "proposals", "bid-no-bid"]
+}
