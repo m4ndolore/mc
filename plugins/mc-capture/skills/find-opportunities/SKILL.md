@@ -29,7 +29,7 @@ If the tools are not available (the connector is off, or the client does not loa
 2. **Search wide, then narrow.** Run 3–6 searches with different terms: the technology ("edge inference"), the mission ("counter-UAS"), the user's words, and the government's words for the same thing ("autonomy", "C-sUAS", "sensor fusion"). Agencies rarely use the founder's vocabulary.
 3. **Read before ranking.** For each plausible SBIR topic, call `get_opportunity` and read the objective and phase descriptions. For other sources, open the notice. Drop anything the description rules out.
 4. **Rank by fit and time.** Put first the records where the company's technology answers the stated need and the close date leaves time to write. A Phase I proposal usually needs 3–6 weeks. Flag anything closing in under 14 days.
-5. **Report.** Use the format below. Offer the next step: `bid-review` on the best one, or an alert with `opportunity-alerts` so new matches arrive weekly.
+5. **Report.** Use the format below. Offer the next step: `bid-review` on the best one, `proposal-templates` to outline a response to one the user has already decided on, or an alert with `opportunity-alerts` so new matches arrive weekly.
 
 ## Report format
 

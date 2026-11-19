@@ -15,6 +15,18 @@
     "federal-register": {
       "type": "http",
       "url": "https://federal-register.1102tools.com/mcp"
+    },
+    "gsa-calc": {
+      "type": "http",
+      "url": "https://gsa-calc.1102tools.com/mcp"
+    },
+    "bls-oews": {
+      "type": "http",
+      "url": "https://bls-oews.1102tools.com/mcp"
+    },
+    "gsa-perdiem": {
+      "type": "http",
+      "url": "https://gsa-perdiem.1102tools.com/mcp"
     }
   }
 }

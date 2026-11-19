@@ -10,6 +10,8 @@ A Claude plugin for defense founders and small businesses. It finds funding oppo
 | `opportunity-alerts` | Sets up a weekly email of new matches. You confirm by email before anything is sent. |
 | `market-research` | Finds the incumbent, sizes up competitors and teammates, shows what an agency spends on a technology area, and lists contracts ending soon, from USAspending award data. |
 | `bid-review` | Steel-mans and red-teams a pursuit, idea or draft against the evaluation criteria, the incumbent and the clauses that apply, and gives a bid, shape-first or no-bid call with next actions. |
+| `price-to-win` | Builds a bottom-up estimate from labor rates, travel and other costs, checks it against comparable awards and the solicitation's limit, and gives a floor, target and ceiling price. |
+| `proposal-templates` | Lays out the outline, page budget and compliance matrix for an SBIR/STTR proposal, DIU solution brief, BAA abstract, challenge pitch, RFI response or capability statement, from the solicitation's own rules. |
 | `write-in-voice` | Drafts proposal sections, abstracts and emails in your own voice, and builds your voice profile from samples of your writing. |
 
 ## MCP servers
@@ -20,8 +22,11 @@ A Claude plugin for defense founders and small businesses. It finds funding oppo
 | `usaspending` (`usaspending.1102tools.com/mcp`) | `search_awards`, `spending_by_category`, `lookup_piid`, `get_award_detail`, `get_idv_activity`, `search_recipients`, `search_subawards` |
 | `ecfr` (`ecfr.1102tools.com/mcp`) | `lookup_far_clause`, `find_far_definition` |
 | `federal-register` (`federal-register.1102tools.com/mcp`) | `open_comment_periods`, `far_case_history`, `search_documents` |
+| `gsa-calc` (`gsa-calc.1102tools.com/mcp`) | `igce_benchmark`, `price_reasonableness_check`, `keyword_search`, `vendor_rate_card` |
+| `bls-oews` (`bls-oews.1102tools.com/mcp`) | `igce_wage_benchmark`, `get_wage_data`, `compare_metros`, `list_common_soc_codes` |
+| `gsa-perdiem` (`gsa-perdiem.1102tools.com/mcp`) | `estimate_travel_cost`, `lookup_city_perdiem` |
 
-The `usaspending`, `ecfr` and `federal-register` servers are free, keyless, open-source servers from [1102tools](https://github.com/1102tools-dev/federal-contracting-mcps). Merge Combinator does not run them. [CONNECTORS.md](CONNECTORS.md) lists them and the other connectors that work with these skills: SAM.gov entity lookup, GovTribe, HigherGov, Google Calendar, Drive, Notion and HubSpot.
+The `usaspending`, `ecfr`, `federal-register`, `gsa-calc`, `bls-oews` and `gsa-perdiem` servers are free, keyless, open-source servers from [1102tools](https://github.com/1102tools-dev/federal-contracting-mcps). Merge Combinator does not run them. [CONNECTORS.md](CONNECTORS.md) lists them and the other connectors that work with these skills: SAM.gov entity lookup, GovTribe, HigherGov, Google Calendar, Drive, Notion and HubSpot.
 
 ## Install
 
@@ -48,7 +53,8 @@ The skills send data to the MCP servers above and to the services below. Each on
 
 | Service | When | What it receives |
 |---|---|---|
-| 1102tools servers (`usaspending`, `ecfr`, `federal-register`) | `market-research`, `bid-review` | Agency, keyword, NAICS, PSC, contract number, company name or clause number |
+| 1102tools servers (`usaspending`, `ecfr`, `federal-register`) | `market-research`, `bid-review`, `price-to-win` | Agency, keyword, NAICS, PSC, contract number, company name or clause number |
+| 1102tools servers (`gsa-calc`, `bls-oews`, `gsa-perdiem`) | `price-to-win` | Labor category, occupation code, experience level, city or metro area. Never your rates, salaries or prices. |
 | `api.mergecombinator.com/api/opportunities` (REST) | `find-opportunities`, only if the connector is unavailable | Search terms and filters |
 | sam.gov | `find-opportunities`, looking up a specific notice, if Claude has web access | The notice number |
 | govtribe.com, highergov.com, fpds.gov | Same, when SAM.gov has too little detail | The notice number or title |
