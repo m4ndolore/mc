@@ -10,7 +10,7 @@ Claude plugins from [Merge Combinator](https://mergecombinator.com), a venture s
 
 | Plugin | What it does | Status |
 |---|---|---|
-| [MC Capture](plugins/mc-capture/README.md) (`mc-capture`) | Find defense funding opportunities, get weekly alerts, research incumbents and competitors, and steel-man and red-team a bid | 0.2.0 |
+| [MC Capture](plugins/mc-capture/README.md) (`mc-capture`) | Find defense funding opportunities, get weekly alerts, research incumbents and competitors, price to win, outline compliant proposals, and steel-man and red-team a bid | 0.3.0 |
 
 Install one with `/plugin install <plugin>@mc`.
 

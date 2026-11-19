@@ -57,5 +57,5 @@ If the user asks you to review an idea with no opportunity attached, run the sam
 - No flattery. Do not soften a no-bid. Say what it would cost to pursue: weeks of writing, a key person's time, a better opportunity missed.
 - Every claim points at the notice, the draft, or something the user said. Mark anything you inferred as an assumption.
 - Check eligibility first. A failed eligibility rule is a kill shot that ends the review: SBIR/STTR small business size and ownership, STTR research-institution partner, set-asides, clearances, facility or ITAR limits.
-- Do not draft the proposal here. Offer `write-in-voice` for the sections the review says to strengthen.
+- Do not draft the proposal here. On a bid or shape-first call, offer `proposal-templates` for the outline and compliance matrix, `price-to-win` when cost could decide it, and `write-in-voice` for the sections the review says to strengthen.
 - This is decision support, not legal or contracting advice. For questions about eligibility or data rights, point to the solicitation instructions, the contracting officer, or an APEX Accelerator.

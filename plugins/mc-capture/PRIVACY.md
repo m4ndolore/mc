@@ -1,13 +1,13 @@
 # Privacy Policy
 
 **MC Capture**
-Effective date: October 23, 2026 (revised to add section 5A)
+Effective date: October 23, 2026 (revised November 19, 2026 to add three servers to section 5A)
 
 This policy describes how the MC Capture plugin (the "Plugin") and the Merge Combinator opportunities service it connects to (the "Service") handle information. In this policy, "you" means the person using the Plugin, "Merge Combinator" means the publisher of the Plugin and operator of the Service, and "Your Information" means any document, company detail or other content you share while using the Plugin.
 
 ## 1. What the Plugin contains
 
-The Plugin is a set of skills, a connection to the Service at https://api.mergecombinator.com/mcp, and connections to three public data servers operated by 1102tools (section 5A). The skills are instructions that Claude follows. The Plugin contains no scripts and stores no files.
+The Plugin is a set of skills, a connection to the Service at https://api.mergecombinator.com/mcp, and connections to six public data servers operated by 1102tools (section 5A). The skills are instructions that Claude follows. The Plugin contains no scripts and stores no files.
 
 ## 2. Information sent to the Service
 
@@ -40,8 +40,11 @@ The Plugin also connects to these servers, which 1102tools operates and Merge Co
 - https://usaspending.1102tools.com/mcp (federal award data)
 - https://ecfr.1102tools.com/mcp (FAR and DFARS text)
 - https://federal-register.1102tools.com/mcp (federal rulemaking)
+- https://gsa-calc.1102tools.com/mcp (GSA schedule labor rates)
+- https://bls-oews.1102tools.com/mcp (occupational wage data)
+- https://gsa-perdiem.1102tools.com/mcp (federal travel per diem rates)
 
-When Claude uses them, the Plugin sends search terms such as an agency name, keyword, NAICS or PSC code, contract number, company name or clause number. The Plugin does not send your documents, email address or voice profile to them. 1102tools states that its hosted servers do not log searches or keep IP addresses. Its privacy policy at https://1102tools.com/privacy governs that data, not this policy.
+When Claude uses them, the Plugin sends search terms such as an agency name, keyword, NAICS or PSC code, contract number, company name, clause number, labor category, occupation code, experience level or city. The Plugin does not send your own labor rates, salaries or prices to them. The Plugin does not send your documents, email address or voice profile to them. 1102tools states that its hosted servers do not log searches or keep IP addresses. Its privacy policy at https://1102tools.com/privacy governs that data, not this policy.
 
 ## 6. Unsubscribing and deletion
 
